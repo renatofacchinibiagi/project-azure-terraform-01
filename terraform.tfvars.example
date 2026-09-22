@@ -1,0 +1,10 @@
+# Copy this file to terraform.tfvars and replace the placeholder values.
+# terraform.tfvars is intentionally ignored by Git.
+
+subscription_id    = "00000000-0000-0000-0000-000000000000"
+location           = "eastus"
+allowed_ssh_cidr   = "203.0.113.10/32"
+ssh_public_key_path = "~/.ssh/id_ed25519.pub"
+
+# Keep one VM for the lowest lab cost. The configuration supports up to three.
+vm_count = 1
